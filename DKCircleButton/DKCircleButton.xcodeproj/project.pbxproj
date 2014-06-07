@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE655F1A1942A51B0037ECFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655F191942A51B0037ECFF /* Foundation.framework */; };
+		CE655F281942A51B0037ECFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655F271942A51B0037ECFF /* XCTest.framework */; };
+		CE655F291942A51B0037ECFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655F191942A51B0037ECFF /* Foundation.framework */; };
+		CE655F2B1942A51B0037ECFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655F2A1942A51B0037ECFF /* UIKit.framework */; };
+		CE655F2E1942A51B0037ECFF /* libDKCircleButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655F161942A51B0037ECFF /* libDKCircleButton.a */; };
+		CE655F411942A5380037ECFF /* DKCircleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE655F401942A5380037ECFF /* DKCircleButton.m */; };
+		CE655F431942A54D0037ECFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE655F421942A54D0037ECFF /* UIKit.framework */; };
+		CE655F451942A5860037ECFF /* DKCircleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CE655F3F1942A5380037ECFF /* DKCircleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE655F2C1942A51B0037ECFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE655F0E1942A51B0037ECFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE655F151942A51B0037ECFF;
+			remoteInfo = DKCircleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE655F161942A51B0037ECFF /* libDKCircleButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDKCircleButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE655F191942A51B0037ECFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE655F261942A51B0037ECFF /* DKCircleButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKCircleButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE655F271942A51B0037ECFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CE655F2A1942A51B0037ECFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CE655F3F1942A5380037ECFF /* DKCircleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCircleButton.h; sourceTree = "<group>"; };
+		CE655F401942A5380037ECFF /* DKCircleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCircleButton.m; sourceTree = "<group>"; };
+		CE655F421942A54D0037ECFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE655F131942A51B0037ECFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE655F431942A54D0037ECFF /* UIKit.framework in Frameworks */,
+				CE655F1A1942A51B0037ECFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE655F231942A51B0037ECFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE655F281942A51B0037ECFF /* XCTest.framework in Frameworks */,
+				CE655F2B1942A51B0037ECFF /* UIKit.framework in Frameworks */,
+				CE655F2E1942A51B0037ECFF /* libDKCircleButton.a in Frameworks */,
+				CE655F291942A51B0037ECFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE655F0D1942A51B0037ECFF = {
+			isa = PBXGroup;
+			children = (
+				CE655F3F1942A5380037ECFF /* DKCircleButton.h */,
+				CE655F401942A5380037ECFF /* DKCircleButton.m */,
+				CE655F181942A51B0037ECFF /* Frameworks */,
+				CE655F171942A51B0037ECFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE655F171942A51B0037ECFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE655F161942A51B0037ECFF /* libDKCircleButton.a */,
+				CE655F261942A51B0037ECFF /* DKCircleButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE655F181942A51B0037ECFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE655F421942A54D0037ECFF /* UIKit.framework */,
+				CE655F191942A51B0037ECFF /* Foundation.framework */,
+				CE655F271942A51B0037ECFF /* XCTest.framework */,
+				CE655F2A1942A51B0037ECFF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE655F441942A57E0037ECFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE655F451942A5860037ECFF /* DKCircleButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE655F151942A51B0037ECFF /* DKCircleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE655F391942A51B0037ECFF /* Build configuration list for PBXNativeTarget "DKCircleButton" */;
+			buildPhases = (
+				CE655F121942A51B0037ECFF /* Sources */,
+				CE655F131942A51B0037ECFF /* Frameworks */,
+				CE655F441942A57E0037ECFF /* Headers */,
+				CE655F461942A58B0037ECFF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKCircleButton;
+			productName = DKCircleButton;
+			productReference = CE655F161942A51B0037ECFF /* libDKCircleButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CE655F251942A51B0037ECFF /* DKCircleButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE655F3C1942A51B0037ECFF /* Build configuration list for PBXNativeTarget "DKCircleButtonTests" */;
+			buildPhases = (
+				CE655F221942A51B0037ECFF /* Sources */,
+				CE655F231942A51B0037ECFF /* Frameworks */,
+				CE655F241942A51B0037ECFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE655F2D1942A51B0037ECFF /* PBXTargetDependency */,
+			);
+			name = DKCircleButtonTests;
+			productName = DKCircleButtonTests;
+			productReference = CE655F261942A51B0037ECFF /* DKCircleButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE655F0E1942A51B0037ECFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = CE655F111942A51B0037ECFF /* Build configuration list for PBXProject "DKCircleButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE655F0D1942A51B0037ECFF;
+			productRefGroup = CE655F171942A51B0037ECFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE655F151942A51B0037ECFF /* DKCircleButton */,
+				CE655F251942A51B0037ECFF /* DKCircleButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE655F241942A51B0037ECFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CE655F461942A58B0037ECFF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "##########################################\n#\n# c.f. http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.7\n#\n# Latest Change:\n# - Supports iPhone 5 / iPod Touch 5 (uses Apple's workaround to lipo bug)\n#\n# Purpose:\n#   Automatically create a Universal static library for iPhone + iPad + iPhone Simulator from within XCode\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE655F121942A51B0037ECFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE655F411942A5380037ECFF /* DKCircleButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE655F221942A51B0037ECFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE655F2D1942A51B0037ECFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE655F151942A51B0037ECFF /* DKCircleButton */;
+			targetProxy = CE655F2C1942A51B0037ECFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE655F371942A51B0037ECFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 i386 armv7s";
+			};
+			name = Debug;
+		};
+		CE655F381942A51B0037ECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 i386 armv7s";
+			};
+			name = Release;
+		};
+		CE655F3A1942A51B0037ECFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DKCircleButton.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE655F3B1942A51B0037ECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DKCircleButton.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CE655F3D1942A51B0037ECFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKCircleButton/DKCircleButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DKCircleButtonTests/DKCircleButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CE655F3E1942A51B0037ECFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKCircleButton/DKCircleButton-Prefix.pch";
+				INFOPLIST_FILE = "DKCircleButtonTests/DKCircleButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE655F111942A51B0037ECFF /* Build configuration list for PBXProject "DKCircleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE655F371942A51B0037ECFF /* Debug */,
+				CE655F381942A51B0037ECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE655F391942A51B0037ECFF /* Build configuration list for PBXNativeTarget "DKCircleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE655F3A1942A51B0037ECFF /* Debug */,
+				CE655F3B1942A51B0037ECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE655F3C1942A51B0037ECFF /* Build configuration list for PBXNativeTarget "DKCircleButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE655F3D1942A51B0037ECFF /* Debug */,
+				CE655F3E1942A51B0037ECFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE655F0E1942A51B0037ECFF /* Project object */;
+}
